@@ -25,7 +25,7 @@ public class Player {
         return scoreNames[points] + "-" + scoreNames[opponent.points];
     }
 
-    private String buildTiedScore() { 
+    private String buildTiedScore() {
         return (cannotWin()) ? scoreNames[points] + "-All" : "Deuce";
     }
 
